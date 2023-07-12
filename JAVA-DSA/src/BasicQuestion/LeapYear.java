@@ -13,7 +13,7 @@ public class LeapYear {
 
         int year = in.nextInt();
 
-        if(((year %4) ==0 && (year %100 !=0) || (year % 400 ==0))){
+        if((year %4) ==0 && (year %100 !=0) || (year % 400 ==0)){
             System.out.println("Enter year is leap year " + year );
         }else{
             System.out.println("Entered year is not a leap year " + year);
